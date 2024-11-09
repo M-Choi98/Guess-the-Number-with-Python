@@ -1,11 +1,3 @@
 # Guess-the-Number-with-Python
 
-This Python program has three tasks showcasing different methods for guessing a randomly generated number:
-
-User Guessing: The guess_random_number function lets a user guess a randomly chosen number within a specified range and a limited number of tries. Hints are provided to guide the player to guess higher or lower.
-
-Programmatic Linear Search: The guess_random_num_linear function uses a linear search approach to guess the target number programmatically, attempting each possibility in sequence until it succeeds or runs out of tries.
-
-Programmatic Binary Search: The guess_random_num_binary function demonstrates a more efficient binary search to find the number. It narrows down the possible range with each guess, making it faster than linear search within the given limits.
-
-This project highlights basic search algorithms, user input handling, and control structures in Python.
+This project is a number guessing game in Python that demonstrates three ways to guess a random number. The first method is a user guessing game, where the program picks a random number, and the user has a limited number of tries to guess it, with hints to guess higher or lower. The second method is a linear search, where the program tries to guess the number by checking each possibility one by one until it either finds the answer or runs out of tries. The third method uses a faster technique called binary search, where the program cuts the range of numbers in half each time, quickly narrowing down to the correct answer. This project shows different ways to solve the same problem and uses basic programming concepts like loops and decision-making.
